@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <title>Conatct us</title>
+    <body>
+        <nav>
+            <ul style="list-style: none; display: flex; gap: 15px;">
+                <li><a href="E:\WebDevelopment\HTML\Html_Webpage\Index.html" target="_self">Home</a></li>
+                <li><a href="E:\WebDevelopment\HTML\Html_Webpage\Aboutus.html" target="_self">About us</a></li>
+                <li><a href="E:\WebDevelopment\HTML\Html_Webpage\Contactus.html" target="_self">Contactus</a></li>
+            </ul>
+        </nav>
+        
+        <h1>Contact Us</h1>
+        <p>Please fill the following information to contact us...</p>
+        <hr>
+        <form>
+            <label for="Username"><strong>Name</strong></label><br/>
+            <input type="text" id="Username" width="100" placeholder="Enter your name"><br/>
+            <label for="email"><strong>Enter your E-mail</strong></label><br/>
+            <input type="email" id="email"><br/>
+            <label for="Contact no"><strong>Enter your phone-number</strong></label><br/>
+            <input type="number"id="contact no"><br/>
+            <label for="Quesstions"><strong>Have you used our website before</strong></label><br/>
+            <input type="radio" name="Question" id="yes">yes
+            <input type="radio" name="Question" id="no">NO<br/>
+            <label for="Message"><strong>Messsage</strong></label><br/>
+            <textarea name="textarea" id="Message" cols="30" rows="10" placeholder="Enter Message"></textarea><br/>
+            <label for="Degree"><strong>Degree</strong></label><br/>
+            <input type="text" placeholder="Select Degree" width="100%" list="Degree">
+            <datalist id="Degree">
+                <option value="B.Tech"></option>
+                <option value="BEE"></option>
+                <option value="BCA"></option>
+                <option value="BBA"></option>
+            </datalist> <br/>
+            <label for="Upload-document"><strong>Select Document</strong></label><br/>
+            <input type="file" name="Upload-document" id="Upload-document"><br>
+            <input type="submit" value="submit"><br/>
+        </form>
+        <hr>
+        <p>
+            Back to <a href="E:\WebDevelopment\HTML\Html_Webpage\Index.html" target="_blank">Main</a>
+        </p>
+    </body>
+</html>
